@@ -1,6 +1,7 @@
 <?php
 namespace Model;
 class ActiveRecord {
+    public $id;
 
     // Base DE DATOS
     protected static $db;
